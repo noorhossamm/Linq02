@@ -232,6 +232,12 @@ namespace Linq02
             //Console.WriteLine(result);
             #endregion
 
+            #region Question23
+            //var result = Source.ProductList.FirstOrDefault(p => p.UnitPrice > 500);
+            //Console.WriteLine(result);
+
+            #endregion
+
         }
     }
 }
