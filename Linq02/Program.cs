@@ -227,6 +227,11 @@ namespace Linq02
             //Console.WriteLine($"{result.ProductName} - {result.UnitPrice}");
             #endregion
 
+            #region Question22
+            //var result = Source.ProductList.First(p => p.UnitPrice > 50);
+            //Console.WriteLine(result);
+            #endregion
+
         }
     }
 }
