@@ -253,6 +253,15 @@ namespace Linq02
 
             #endregion
 
+            #region Question26
+            //var result = Source.ProductList.Take(3).Select(p => p.ProductName).Concat(
+            //    Source.CustomerList.Take(3).Select(c =>  c.CustomerName ));
+
+            //foreach (var item in result)
+            //    Console.WriteLine(item);
+
+            #endregion
+
         }
     }
 }
