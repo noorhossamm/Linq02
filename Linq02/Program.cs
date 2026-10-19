@@ -15,6 +15,18 @@ namespace Linq02
             //}
             #endregion
 
+            #region Question02
+            //var BeveragesOrderedByStock = Source.ProductList.Where(p => p.Category == "Beverages")
+            //    .OrderByDescending(p => p.UnitsInStock);
+                
+            //  foreach (var product in BeveragesOrderedByStock)
+            //{
+            //    Console.WriteLine($"Name: {product.ProductName} , Stock : {product.UnitsInStock}");
+            //}
+
+
+            #endregion
+
         }
     }
 }
