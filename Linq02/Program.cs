@@ -143,6 +143,14 @@ namespace Linq02
             //}
             #endregion
 
+            #region Question14
+            //var categories = Source.ProductList.GroupBy(p => p.Category).Where(g => g.Count() > 3);
+            //foreach(var category in categories)
+            //{
+            //    Console.WriteLine($"Category: {category.Key}");
+            //}
+            #endregion
+
         }
     }
 }
