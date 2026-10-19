@@ -51,6 +51,19 @@ namespace Linq02
 
             #endregion
 
+            #region Question05
+           //string [] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+
+           // var result = Arr.OrderBy(a => a.Length)
+           //                 .ThenBy(a => a, StringComparer.OrdinalIgnoreCase);
+
+           // foreach (var word in result)
+           // {
+           //     Console.WriteLine(word);
+           // }
+
+            #endregion
+
         }
     }
 }
