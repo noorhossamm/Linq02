@@ -93,6 +93,16 @@ namespace Linq02
             //    Console.WriteLine(p.ProductName);
             #endregion
 
+            #region Question09
+            //var cheapSortedProducts = Source.ProductList.Where(p => p.UnitPrice < 25)
+            //                                            .OrderBy(p => p.UnitPrice);
+
+            //foreach(var product in cheapSortedProducts)
+            //{
+            //    Console.WriteLine(product);
+            //}
+            #endregion
+
         }
     }
 }
