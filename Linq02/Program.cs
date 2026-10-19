@@ -85,6 +85,14 @@ namespace Linq02
             //}
             #endregion
 
+            #region Question08
+            //var result = Source.ProductList.Skip(5)
+            //                               .Take(5);
+
+            //foreach (var p in result)
+            //    Console.WriteLine(p.ProductName);
+            #endregion
+
         }
     }
 }
