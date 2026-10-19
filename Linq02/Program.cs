@@ -151,6 +151,25 @@ namespace Linq02
             //}
             #endregion
 
+            #region Question15
+            //var result = from c in Source.CustomerList 
+            //             group c by c.Country into g
+            //             select new
+            //             {
+            //                 Country = g.Key,
+            //                 Count = g.Count(),
+            //                 TotalOrderValue = g.SelectMany(c => c.Orders)
+            //               .Sum(o => o.Total)
+            //             };
+
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(
+            //        $"{item.Country} - {item.Count} - {item.TotalOrderValue}");
+            //}
+            #endregion
+
         }
     }
 }
