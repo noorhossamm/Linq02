@@ -111,6 +111,15 @@ namespace Linq02
             //Console.WriteLine($"Is All Seafood InStock? : {IsAllSeafoodInStock}");
             #endregion
 
+            #region Question11
+            //int[] ids = { 3, 9, 13, 18 };
+
+            //bool result = ids.Contains(9);
+
+            //Console.WriteLine($"Does IDs list contain 9? : {result}");
+
+            #endregion
+
         }
     }
 }
