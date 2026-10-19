@@ -1,4 +1,5 @@
 ﻿using LINQ.DataSources;
+using LINQ.Models;
 
 namespace Linq02
 {
@@ -216,6 +217,14 @@ namespace Linq02
             //    Console.WriteLine(item);
             //}
 
+            #endregion
+
+            #region Question21
+            //Dictionary<int, Product> products = Source.ProductList.ToDictionary(p => p.ProductID);
+
+            //var result = products[18];
+
+            //Console.WriteLine($"{result.ProductName} - {result.UnitPrice}");
             #endregion
 
         }
