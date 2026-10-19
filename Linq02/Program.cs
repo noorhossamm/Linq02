@@ -103,6 +103,14 @@ namespace Linq02
             //}
             #endregion
 
+            #region Question10
+
+            //var IsAllSeafoodInStock = Source.ProductList.Where(p => p.Category == "Seafood")
+            //                                                  .All(p => p.UnitsInStock>0);
+
+            //Console.WriteLine($"Is All Seafood InStock? : {IsAllSeafoodInStock}");
+            #endregion
+
         }
     }
 }
