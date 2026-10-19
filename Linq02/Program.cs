@@ -175,6 +175,14 @@ namespace Linq02
             //Console.WriteLine($"Total Units In Stock: {totalInsTock}");
             #endregion
 
+            #region Question17
+            //var cheapest = Source.ProductList.Min(p => p.UnitPrice);
+            //var mostExpensive = Source.ProductList.Max(p => p.UnitPrice);
+
+            //Console.WriteLine($"Cheapest: {cheapest}");
+            //Console.WriteLine($"Most Expensive: {mostExpensive}");
+            #endregion
+
         }
     }
 }
