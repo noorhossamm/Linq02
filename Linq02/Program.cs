@@ -262,6 +262,13 @@ namespace Linq02
 
             #endregion
 
+            #region Question27
+            //var result = Source.ProductList.Zip(Source.CustomerList,(p, c) => $"{p.ProductName} sold to {c.CustomerName}");
+
+            //foreach (var item in result)
+            //    Console.WriteLine(item);
+            #endregion
+
         }
     }
 }
