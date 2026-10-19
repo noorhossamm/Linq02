@@ -170,6 +170,11 @@ namespace Linq02
             //}
             #endregion
 
+            #region Question16
+            //var totalInsTock = Source.ProductList.Sum(p => p.UnitsInStock);
+            //Console.WriteLine($"Total Units In Stock: {totalInsTock}");
+            #endregion
+
         }
     }
 }
