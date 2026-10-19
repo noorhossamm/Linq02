@@ -120,6 +120,14 @@ namespace Linq02
 
             #endregion
 
+            #region Question12
+
+            //var productsGroupedByCategory = Source.ProductList.GroupBy(p => p.Category);
+
+            //foreach (var group in productsGroupedByCategory)
+            //    Console.WriteLine($"{group.Key} - {group.Count()}");
+            #endregion
+
         }
     }
 }
