@@ -18,12 +18,27 @@ namespace Linq02
             #region Question02
             //var BeveragesOrderedByStock = Source.ProductList.Where(p => p.Category == "Beverages")
             //    .OrderByDescending(p => p.UnitsInStock);
-                
+
             //  foreach (var product in BeveragesOrderedByStock)
             //{
             //    Console.WriteLine($"Name: {product.ProductName} , Stock : {product.UnitsInStock}");
             //}
 
+
+            #endregion
+
+            #region Question03
+            var query = from c in Source.CustomerList
+                        from o in c.Orders
+                        where o.OrderDate >= new DateTime(1997, 1, 1)
+                        select new
+                        {
+                            c.CustomerID,
+                            o.OrderDate
+                        };
+
+            foreach (var item in query)
+                Console.WriteLine($"{item.CustomerID} - {item.OrderDate}");
 
             #endregion
 
