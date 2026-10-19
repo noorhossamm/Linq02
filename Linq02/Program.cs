@@ -191,7 +191,20 @@ namespace Linq02
             //    Console.WriteLine(p.Category);
             //}
             #endregion
-                
+
+            #region Question19
+            //int[] setA = { 1, 3, 5, 7, 9, 11, 13 };
+            //int[] setB = { 3, 6, 9, 12, 15, 13 };
+
+            //var result = setA.Except(setB);
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
+
         }
     }
 }
