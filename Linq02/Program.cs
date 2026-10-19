@@ -245,6 +245,14 @@ namespace Linq02
             //    Console.WriteLine(item);
             #endregion
 
+            #region Question25
+            //var result = Enumerable.Range(1,30).Where(n => n%2==0);
+
+            //foreach (var item in result)
+            //    Console.WriteLine(item);
+
+            #endregion
+
         }
     }
 }
