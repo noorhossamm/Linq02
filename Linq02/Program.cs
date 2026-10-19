@@ -52,15 +52,27 @@ namespace Linq02
             #endregion
 
             #region Question05
-           //string [] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+            //string [] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
 
-           // var result = Arr.OrderBy(a => a.Length)
-           //                 .ThenBy(a => a, StringComparer.OrdinalIgnoreCase);
+            // var result = Arr.OrderBy(a => a.Length)
+            //                 .ThenBy(a => a, StringComparer.OrdinalIgnoreCase);
 
-           // foreach (var word in result)
-           // {
-           //     Console.WriteLine(word);
-           // }
+            // foreach (var word in result)
+            // {
+            //     Console.WriteLine(word);
+            // }
+
+            #endregion
+
+            #region Question06
+            //string[] Arr = { "aPPlE", "AiAcUs", "bRaNcH", "BlUeBeRrY", "CiOvEr", "cHeRry" };
+
+            //var result = Arr.Where(a => a[1] == 'i').Reverse();
+
+            //foreach (var word in result)
+            //{
+            //    Console.WriteLine(word);
+            //}
 
             #endregion
 
