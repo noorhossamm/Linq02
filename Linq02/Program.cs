@@ -28,17 +28,26 @@ namespace Linq02
             #endregion
 
             #region Question03
-            var query = from c in Source.CustomerList
-                        from o in c.Orders
-                        where o.OrderDate >= new DateTime(1997, 1, 1)
-                        select new
-                        {
-                            c.CustomerID,
-                            o.OrderDate
-                        };
+            //var query = from c in Source.CustomerList
+            //            from o in c.Orders
+            //            where o.OrderDate >= new DateTime(1997, 1, 1)
+            //            select new
+            //            {
+            //                c.CustomerID,
+            //                o.OrderDate
+            //            };
 
-            foreach (var item in query)
-                Console.WriteLine($"{item.CustomerID} - {item.OrderDate}");
+            //foreach (var item in query)
+            //    Console.WriteLine($"{item.CustomerID} - {item.OrderDate}");
+
+            #endregion
+
+            #region Question04
+            //var productsIndexed = Source.ProductList.Select((p, i) => $"{i}. {p.ProductName}");
+            //foreach (var product in productsIndexed)
+            //{
+            //    Console.WriteLine(product);
+            //}
 
             #endregion
 
