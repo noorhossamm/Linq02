@@ -238,6 +238,13 @@ namespace Linq02
 
             #endregion
 
+            #region Question24
+            //var result = Enumerable.Range(1, 10).Select(n => 7 * n);
+
+            //foreach (var item in result)
+            //    Console.WriteLine(item);
+            #endregion
+
         }
     }
 }
