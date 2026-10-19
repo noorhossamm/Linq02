@@ -183,6 +183,15 @@ namespace Linq02
             //Console.WriteLine($"Most Expensive: {mostExpensive}");
             #endregion
 
+            #region Question18
+
+            //var result = Source.ProductList.DistinctBy(p => p.Category);
+            //foreach(var p in result)
+            //{
+            //    Console.WriteLine(p.Category);
+            //}
+            #endregion
+                
         }
     }
 }
