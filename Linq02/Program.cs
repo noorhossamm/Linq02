@@ -76,6 +76,15 @@ namespace Linq02
 
             #endregion
 
+            #region Question07
+            //var threeExpensiveProducts = Source.ProductList.OrderByDescending(p => p.UnitPrice).Take(3);
+
+            //foreach (var product in threeExpensiveProducts)
+            //{
+            //    Console.WriteLine(product);
+            //}
+            #endregion
+
         }
     }
 }
